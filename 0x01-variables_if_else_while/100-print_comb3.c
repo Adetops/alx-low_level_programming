@@ -20,7 +20,7 @@ int main(void)
 		{
 			putchar(n1);
 			putchar(n2);
-			if (n1 != 56 || n2 != 52)
+			if (n1 != 56 || n2 != 57)
 			{
 				putchar(com);
 				putchar(32);
@@ -29,7 +29,6 @@ int main(void)
 		}
 		n1 <= 1;
 	}
-	purchar(9);
 	purchar('\n');
 	return (0);
 }
