@@ -5,7 +5,6 @@
  * two two-digit numbers
  * The numbers should range from 0 to 99
  * All numbers should be printed with two digits.
- * 1 should be printed as 01
  * The combinations of numbers should be printed in ascending order
  * You can only use the putchar function and eight times maximum
  * Return: 0 if success
