@@ -8,10 +8,9 @@
 int main(void)
 {
 
-	int i;
 	char lw = 'a';
 
-	for (char = 'a'; char <= 'z'; char++)
+	while (char = 'a'; char <= 'z'; char++)
 	{
 		_putchar(lw);
 		lw += 1;
