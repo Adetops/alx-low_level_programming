@@ -7,11 +7,11 @@
  */
 void jack_bauer(void)
 {
-	int i = "00.00";
+	int i = "00:00";
 
-	for (i <= "23:59")
+	for (i < "24:00")
 	{
 		_putchar(i);
-		i += "01:00";
+		i++;
 	}
 }
