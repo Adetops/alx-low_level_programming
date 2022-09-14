@@ -8,11 +8,12 @@
 int main(void)
 {
 	int i;
-	char h = _putchar;
+	char c = _putchar;
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(h);
+		_putchar(c);
 	}
+	_putchar('\n')
 	return (0);
 }
