@@ -9,11 +9,11 @@
  */
 void print_to_98(int n)
 {
-	int i = 0
+	int n = 0;
 
-	for (i = 0; i < 99; i++)
+	for (n = 0; n <= 98; n++)
 	{
-		_putchar('i');
+		_putchar('n');
 		_putchar(',');
 		_putchar(' ');
 	}
