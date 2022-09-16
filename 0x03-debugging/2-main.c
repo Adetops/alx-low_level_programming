@@ -3,7 +3,7 @@
 
 /**
  * main - prints the largest of 3 intergers
- * Return: 0
+ * Return: 0 if success
  */
 
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
 
 	largest = largest_number(a, b, c);
 
-	printf("%d is the largest number number\n", largest);
+	printf("%d is the largest number\n", largest);
 
 	return (0);
 }
