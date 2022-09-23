@@ -15,18 +15,16 @@
 char *leet(char *s)
 {
 	int count = 0, i;
-	char lw_letters[] = "ae0tl";
-	char up_letters[] = "AEOTL";
-	char numbers[] = "43071";
+	char letters[] = "ae0tlAEOTL";
+	char numbers[] = "43071430714";
 
 	while (*(s + count) != '\0')
 	{
-		for (i = 0; i < 5; i++)
+		for (i = 0; i < 10; i++)
 		{
-			if (*(s + count) == lw_letters[i] || *(s + count) == up_letters)
+			if (*(s + count) == letters[i])
 			{
 				*(s + count) = numbers[i];
-				break;
 			}
 		}
 		count++;
