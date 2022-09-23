@@ -19,6 +19,7 @@ char *leet(char *s)
 	int up_letters[] = {65, 69, 79, 84, 76};
 	int numbers[] = {52, 51, 48, 55, 49};
 
+	*(s + count) != '\0';
 	for (i = 0; i < 5; i++)
 	{
 		if (*(s + count) == lw_letters[i] || *(s + count) == up_letters)
@@ -28,6 +29,5 @@ char *leet(char *s)
 		}
 	}
 	count++;
-	*(s + count) != '\0';
 	return (s);
 }
