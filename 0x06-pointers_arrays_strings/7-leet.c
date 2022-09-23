@@ -29,6 +29,5 @@ char *leet(char *s)
 	}
 	count++;
 	*(s + count) != '\0';
-	}
 	return (s);
 }
