@@ -23,9 +23,7 @@ char *leet(char *s)
 		for (i = 0; i < 10; i++)
 		{
 			if (*(s + count) == letters[i])
-			{
 				*(s + count) = numbers[i];
-			}
 		}
 		count++;
 	}
