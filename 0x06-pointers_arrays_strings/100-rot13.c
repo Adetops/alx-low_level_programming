@@ -15,7 +15,7 @@ char *rot13(char *s)
 
 	while (*(s + count) != '\0')
 	{
-		for (i = 0; i < 10; i++)
+		for (i = 0; i != '\0'; i++)
 		{
 			if (*(s + count) == str[i])
 				*(s + count) = rot13[i];
