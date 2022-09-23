@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - function that encodes a string into 1337
+ * *leet - function that encodes a string into 1337
  * @s: input string
  * You can only use one if in your code
  * You can only use two loops in your code
@@ -17,7 +17,7 @@ char *leet(char *s)
 	int count = 0, i;
 	char lw_letters[] = "ae0tl";
 	char up_letters[] = "AEOTL";
-	int numbers[] = "43071";
+	char numbers[] = "43071";
 
 	while (*(s + count) != '\0')
 	{
