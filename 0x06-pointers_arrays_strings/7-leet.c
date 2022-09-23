@@ -15,17 +15,19 @@
 char *leet(char *s)
 {
 	int count = 0, i;
-	int lw_letters[] = {97, 101, 111, 116, 108};
-	int up_letters[] = {65, 69, 79, 84, 76};
+	char lw_letters[] = {97, 101, 111, 116, 108};
+	char up_letters[] = {65, 69, 79, 84, 76};
 	int numbers[] = {52, 51, 48, 55, 49};
 
-	*(s + count) != '\0';
-	for (i = 0; i < 5; i++)
+	while (*(s + count) != '\0')
 	{
-		if (*(s + count) == lw_letters[i] || *(s + count) == up_letters)
+		for (i = 0; i < 5; i++)
 		{
-			*(s + count) = numbers[i];
-			break;
+			if (*(s + count) == lw_letters[i] || *(s + count) == up_letters)
+			{
+				*(s + count) = numbers[i];
+				break;
+			}
 		}
 		count++;
 	}
