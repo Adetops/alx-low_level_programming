@@ -17,9 +17,11 @@ char *rot13(char *s)
 	{
 		for (i = 0; i != '\0'; i++)
 		{
-			if (*(s + count) = str[i])
+			if (*(s + count) == str[i])
+			{
 				*(s + count) = rot13[i];
-			break;
+				break;
+			}
 		}
 		count++;
 	}
