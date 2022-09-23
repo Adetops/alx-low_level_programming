@@ -20,9 +20,9 @@ char *leet(char *s)
 
 	while (*(s + count) != '\0')
 	{
-		for (i = 0; i != '\0'; i++)
+		for (i = 0; i < 10; i++)
 		{
-			if (*(s + count) == letters[i])
+			if (*(s + count) = letters[i])
 				*(s + count) = numbers[i];
 		}
 		count++;
