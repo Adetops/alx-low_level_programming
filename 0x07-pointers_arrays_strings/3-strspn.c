@@ -16,8 +16,11 @@ unsigned int _strspn(char *s, char *accept)
 		z = 1;
 		for (y = 0; *(accept + y) != 0; y++)
 		{
-			z = 0;
-			break;
+			if (*(s + x) == *(accept + y))
+			{
+				z = 0;
+				break;
+			}
 		}
 		if (z == 1)
 			break;
