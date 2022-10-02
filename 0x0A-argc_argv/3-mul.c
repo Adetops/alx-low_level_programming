@@ -12,10 +12,10 @@
 int main(int argc, char *argv[])
 {
 	int x, i, j;
-	
+
 	if (argc != 3)
 	{
-		printf("%s\n", "Error");
+		printf("Error\n");
 		return (1);
 	}
 	else
