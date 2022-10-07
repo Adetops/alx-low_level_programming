@@ -10,7 +10,7 @@
  * if NULL is passed, treat it as an empty string
  * Return: pointer to newly allocated memory space, NULL if function fails
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n) 
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
 	unsigned int c, c1;
