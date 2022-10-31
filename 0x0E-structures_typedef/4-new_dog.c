@@ -46,9 +46,9 @@ char *_strcpy(char *dest, char *src)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *nd;
+	struct dog *nd;
 
-	nd = malloc(sizeof(dog_t));
+	nd = malloc(sizeof(struct dog));
 	if (nd == NULL)
 		return (NULL);
 
