@@ -29,7 +29,10 @@ int main(int argc, char *argv[])
 	{
 		printf("%02hhx, ", arr[i]);
 		if (i == arg2 - 1)
+		{
 			printf("%02hhx\n", arr[i]);
+			break;
+		}
 	}
 	return (0);
 }
