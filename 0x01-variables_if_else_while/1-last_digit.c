@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - assign a random number to the variable n each time it is executed
- * Last digit ofn
+ * main - assign a random number to the variable n each time it is executed.
+ * The variable n will store a different value every time you run this program.
  * Return: 0
  */
 int main(void)
