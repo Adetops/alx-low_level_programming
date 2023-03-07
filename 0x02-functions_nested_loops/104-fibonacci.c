@@ -12,17 +12,15 @@ int main(void)
 	unsigned long int j = 2;
 	unsigned long int k, fibo;
 
-	fibo = 0;
-	while (fibo <= 97)
+	for (fibo = 0; fibo <= 97; fibo++)
 	{
-		if (fibo != 97)
-			printf("%lu, ", j);
+		if (fibo < 97)
+			printf("%lu, ", i);
 		else
-			printf("%lu\n", j);
+			printf("%lu\n", i);
 		k = i + j;
 		i = j;
 		j = k;
-		fibo++;
 	}
 	return (0);
 }
