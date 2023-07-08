@@ -41,7 +41,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 		return (1);
 	}
-	free(ht);
+	free(ht->array);
 
 	return (0);
 }
