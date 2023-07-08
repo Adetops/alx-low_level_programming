@@ -14,6 +14,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *dup_value = strdup(value);
 	hash_node_t *new;
 
+	if (ht == NULL)
+		return (0);
+
 	index = key_index((unsigned char *)key, ht->size);
 	new = malloc(sizeof(hash_node_t));
 
@@ -34,6 +37,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 					new->next = ht->array[i];
 					ht->array[i] = new;
 				}
+    				printf("key: %s\tvalue: %s at index %lu\n",
+						new->key, new->value, index);
 			}
 		}
 		return (1);
